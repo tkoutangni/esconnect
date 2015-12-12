@@ -5,7 +5,7 @@ function postDataToSpreadSheet(){
       // variable to display message after request response is completed
       var $popupContent = $('.content-wraper');
       var successMsg =  '<h3> Votre inscription a &eacute;t&eacute; bien enregistr&eacute;e. Merci!</h3>';
-      var displaysuccessMsg = '<div>' + successMsg + '</div>';
+      var displaysuccessMsg = '<div class="grid-container">' + successMsg + '</div>';
 
       // Bind to the submit event of the form
       $("#registration").submit(function(event){
