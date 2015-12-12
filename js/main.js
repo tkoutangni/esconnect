@@ -5,9 +5,7 @@ function postDataToSpreadSheet(){
       // variable to display message after request response is completed
       var $popupContent = $('.content-wraper');
       var successMsg =  '<h3> Votre inscription a &eacute;t&eacute; bien enregistr&eacute;e. Merci!</h3>';
-      var callToAction = '<p> Vos coll&egrave;gues, ami(es) ou connaissances ' + 
-      'pourraient &ecirc;tre &eacute;galement int&eacute;resser par ce s&eacuteminaire.</p>';
-      var displaysuccessMsg = '<div>' + successMsg + callToAction + '</div>';
+      var displaysuccessMsg = '<div>' + successMsg + '</div>';
 
       // Bind to the submit event of the form
       $("#registration").submit(function(event){
@@ -76,7 +74,7 @@ function postDataToSpreadSheet(){
 $('.registration-popup').magnificPopup({
 
   items: {
-      src: 'ajax-popup-placeholder.html',
+      src: 'registration-form.html',
       type: 'ajax'
   },
   callbacks: {
@@ -90,7 +88,7 @@ $('.registration-popup').magnificPopup({
 
 $('.submit-abstract-popup').magnificPopup({
   items:{
-      src: 'ajax-popup-placeholder.html',
+      src: 'abstract-submission-form.html',
       type: 'ajax'
   }
 });
