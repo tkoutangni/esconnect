@@ -1,0 +1,86 @@
+	<div class="ajax-popup">
+		<style>
+				/* added by me */
+
+			.mfp-close-btn-in .mfp-close {
+			    color: #333;
+			}
+			button.mfp-close, button.mfp-arrow {
+			    overflow: visible;
+			    cursor: pointer;
+			    border: 0;
+			    -webkit-appearance: none;
+			    display: block;
+			    outline: none;
+			    padding: 0;
+			    margin: 0;
+			    z-index: 1046;
+			    -webkit-box-shadow: none;
+			    box-shadow: none;
+			}
+			.mfp-close {
+			    width: 44px;
+			    height: 44px;
+			    line-height: 44px;
+			    position: absolute;
+			    right: 0;
+			    top: 0;
+			    text-decoration: none;
+			    text-align: center;
+			    opacity: 0.65;
+			    filter: alpha(opacity=65);
+			    padding: 0 0 18px 10px;
+			    color: #FFF;
+			    font-style: normal;
+			    font-size: 28px;
+			    font-family: Arial, Baskerville, monospace;
+
+			}
+			
+
+			.divider{
+				padding: 5px;
+				border-radius: 3px;
+				background-color: #E6EDEF;
+				background-color: rgba(230, 237, 239, 0.6);
+			}
+
+			/* end added by me */
+		</style>
+
+		<div class="grid-container  popup-content group">
+			<div class="grid-6">
+					<h4>Connectez vous</h4>
+					<form name="login-form" action="#" method="POST">
+						<label for="userMail">E-mail:</label>
+						<input type="e-mail" name="user-email" id="userMail" required placeholder="Adresse e-mail">
+						<label for="userPassWord">Mot de passe</label>
+						<input type="password" name="user-password" id="userPassWord" required>
+						
+						<input class=" grid-1 checkbox-style" type="checkbox" name="userAgreement" required id="rules">
+						<label class=" grid-11 checkbox-label-style small-text" for="rules">J&acute;accepte les <a href="#">conditions d&acute;utilisation du site</a> </label>
+						<input type="submit" value="Connexion">
+					</form>
+					<p class="small-text"> <a href="#"> Mot de passe oubli&eacute;<i class="fa fa-question"></i>
+ 				</a></p>
+					
+			</div>
+			<div class="grid-6 divider show-container-border">
+					<div class="grid-container">
+					<h4>Pas encore inscrit?</h4>
+				    <p>Vous pouvez cr&eacute;er un compte en moins d'une minute. En devenant membre de tachawer vous pouvez:</p>
+				    <ul class="fa-ul">
+				    	<li><i class="fa-li fa fa-check-square"></i>Consulter la soci&eacute;t&eacute; civile</li>
+				    	<li><i class="fa-li fa fa-check-square"></i>Contribuer aux consultations</li>
+				    	<li><i class="fa-li fa fa-check-square"></i>Participer aux prise de d&eacute;cisions</li>
+				    	<li><i class="fa-li fa fa-check-square"></i>Acceder aux consultations</li>
+				    </ul>
+				    <button class="large-button">Cr&eacute;er un compte</button>
+				    </div>
+			</div>
+		</div>
+	</div>
+
+
+
+	

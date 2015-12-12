@@ -1,0 +1,16 @@
+/* svg styles only*/
+
+svg{
+	width: 100%;
+	height:auto;
+	cursor: pointer;
+	opacity: .8;
+}
+
+path{
+	fill:#4C9D74; 
+	transition:.6s fill;
+}
+path:hover{
+	fill:#157243;
+}
