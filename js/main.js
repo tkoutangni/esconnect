@@ -125,3 +125,21 @@ function inputTypingEnds(){
 }
 
 
+$('.member-details').mouseover(function(e){
+  console.log(e.type);
+});
+
+$('.member-details').magnificPopup({
+  items:{
+      src: 'test-ajax.html',
+      type: 'ajax'
+  }
+});
+
+$('.show-program').click(function(){
+  // $(this).html('Cacher le programme de l&acute;apr&egrave;s midi');
+  $('.hide-all-device').slideToggle();
+});
+
+
+
