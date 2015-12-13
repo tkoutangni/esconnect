@@ -242,6 +242,8 @@ a:hover {
 /* Form Elements styles
 ================================ */
 input[type="checkbox"],
+input[type="radio"],
+input[type="select"],
 label{
 	cursor: pointer;
 }
@@ -256,9 +258,8 @@ select{
 	border-radius: 3px;
 	border: 1px solid #D6E1E4;
 	outline: 0;
-	cursor: auto;
-
 }
+
 
 input{
 	width: 95%;
@@ -270,11 +271,25 @@ input[placeholder]{
 	color: #A4B3B7;
 }
 
+input[type="radio"],
+input[type="radio"]+label,
 .checkbox-style,
 .checkbox-label-style{
 	display: inline;
 	height: 13px;
 	color: inherit;
+	width:20px;
+}
+
+input[type="radio"]+label{
+	margin-left: 5px;
+	margin-right: 20px;
+}
+input,
+label{
+	margin-top: 5px;
+	margin-bottom: 20px;
+
 }
 
 .show-container-border{
@@ -292,15 +307,16 @@ input[placeholder]{
 	background-color: #fff;
 }
 
-select{
+select,select option{
 	overflow: hidden;
 	padding: 5px 8px;
-	background: #fff url("img/icon-select.png") no-repeat 90% 50%;
 	border: none;
     box-shadow: none;
     background: transparent;
     background-image: none;
     -webkit-appearance: none;
+    background: #fff url("img/icon-select.png") no-repeat 90% 50%;
+    cursor:pointer;
 }
 
 select:focus,
@@ -373,8 +389,6 @@ a:focus {
 	margin: 30px auto 20px;
 	opacity:0.8;
 }
-
-
 
 .speaker-1 p:before{
 	background: url(../img/speakers/speaker-1.jpg)  top center no-repeat;
@@ -678,6 +692,10 @@ blockquote{
 	background:#ffebe8;
 	border:1px solid #dd3c10;
 	font-size: 14px;
+}
+
+.add-top-margin{
+	margin-top: 10px;
 }
 /*
 .overlay{

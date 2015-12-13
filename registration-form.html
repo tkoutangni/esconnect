@@ -4,14 +4,53 @@
 	<p class="highlight">Les Informations receuillies via ce formulaire ne servirons que dans le cadre de ce s&eacute;minaire. En aucun cas, ils ne seront transmises &agrave; des tiers. Vous pourrez modifier les informations soumises via ce formuliare &agrave; tout moment en nous contactant &agrave:
 	<a href="mailto:esconnect@gmail.com">esconnect@gmail.com</a>.</p>
 	<p>Les champs marqu&eacute;s <span>*</span> sont obligatoires</p>
-	<form id="registration" method="post">
-		<label for="userName">Nom<span>*</span></label>
-		<input type="text" name="user_name" id="userName" placeholder ="Nom de famille" autocomplete >
-		<label for="userSurname">Pr&eacute;nom<span>*</span></label>
-		<input type="text" name="user_surname" id="userSurname" placeholder ="Pr&eacute;nom" autocomplete >
-		<label for="userEmail">Email<span>*</span></label>
-		<input type="email" name="user_email" id="userEmail" placeholder ="exemple@gmail.com" autocomplete >
-		<button type="submit" class ="large-button" id="submit-btn">Envoyer</button>
+	<form class="grid-container" id="registration" method="post">
+		<div class="grid-6">
+			<label for="title">Titre<span>*</span></label>
+			<select id ="title" name="user_title"autofocus required>
+				<option value="">Selectionner</option>
+				<option value ="Madame">Madame</option>
+				<option value="Mademoiselle">Mademoiselle</option>
+				<option value="Monsieur">Monsieur</option>
+			</select><br>
+			<label for="userName">Nom<span>*</span></label>
+			<input type="text" name="user_name" id="userName" placeholder ="Nom de famille" autocomplete required>
+			<label for="userSurname">Pr&eacute;nom<span>*</span></label>
+			<input type="text" name="user_surname" id="userSurname" placeholder ="Pr&eacute;nom" autocomplete required>
+		</div>
+
+		<div class="grid-6">
+			<label for="userProfession">Vous &ecirc;tes<span>*</span></label>
+			<select id ="userProfession" name="user_profession"autofocus required>
+				<option value="">S&eacute;lectionner</option>
+				<option value="Doctorant">Doctorant</option>
+				<option value ="Etudiant">Etudiant</option>
+				<option value="Docteur">Docteur</option>
+				<option value="Professeur">Professeur</option>
+				<option value="Consultant">Consultant</option>
+				<option value="Repr&eacute;sentant">Repr&eacute;sentant</option>
+				<option value="Autres">Autres</option>
+			</select><br>
+
+			<label for="userAffiliation">Affiliation<span>*</span></label>
+			<input type="text" name="user_affiliation" id="userAffiliation" placeholder ="Votre affiliation" autocomplete required>
+			
+			<label for="userEmail">Email<span>*</span></label>
+			<input type="email" name="user_email" id="userEmail" placeholder ="exemple@gmail.com" autocomplete required>
+		</div>
+
+		
+		
+		<label>Serez vous pr&eacute;sent pour le dejeuner &eacute;galement?<span>*</span></label>
+		<div class="add-top-margin">
+			<input type="radio" id="lunch" name ="present_for_lunch" value ="Oui" required>
+			<label for="lunch">Oui</label>
+			<input type="radio" id="no_lunch" name ="present_for_lunch" value ="Non" required>
+			<label for="no_lunch">Non</label>
+		</div>
+		<div class="grid-container">
+			<button type="submit" class ="large-button" id="submit-btn">Envoyer</button>
+		</div>
 	</form>
 </div>
 <div class="shareLink hide-all-device">
