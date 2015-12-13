@@ -307,17 +307,32 @@ label{
 	background-color: #fff;
 }
 
+.input-incorrect{
+	border: 1px solid red;
+}
+
 select,select option{
+	width:95%;
 	overflow: hidden;
-	padding: 5px 8px;
+	/*padding: 5px 5px 5px 8px;*/
 	border: none;
-    box-shadow: none;
-    background: transparent;
-    background-image: none;
     -webkit-appearance: none;
-    background: #fff url("img/icon-select.png") no-repeat 90% 50%;
+    -moz-appearance:none;
+    -webkit-background: #f1f1f1 url("../img/icon-select.png") no-repeat 93% 50%;
+    -moz-background: #f1f1f1 url("../img/icon-select.png") no-repeat 93% 50%;
+    /*-o-background: #f1f1f1 url("../img/icon-select.png") no-repeat 93% 50%;*/
+    background: #FAFCFC url("../img/icon-select.png") no-repeat 93% 50%;
+    background-size: 12px auto; 
     cursor:pointer;
 }
+
+select option{
+	background:none;
+	margin:0 auto;
+	padding:5px;
+	outline:none;
+}
+
 
 select:focus,
 a:focus {

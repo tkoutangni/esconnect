@@ -28,6 +28,7 @@ function postDataToSpreadSheet(){
           // Disabled form elements will not be serialized.
           $inputs.prop("disabled", true);
 
+
           // Fire off the request to /form.php
           request = $.ajax({
               url: 'https://script.google.com/macros/s/AKfycbzNOvxFxXtM2VXcMVxHOaXEVf24JzzSzD5pn2aFFIJTWGF9qiU/exec',
@@ -80,6 +81,10 @@ $('.registration-popup').magnificPopup({
   callbacks: {
           ajaxContentAdded: function() {
             // After ajax content is loaded and appended to DOM
+            var $textInput = $('input[type="text"], input[type="email"]');
+            $textInput.on('keypress', inputTypingStarts);
+            $textInput.on('blur', inputTypingEnds);
+
             postDataToSpreadSheet();
           } // code to excute upon requested content is loaded via ajax.      
         } // callback functions end.
@@ -99,5 +104,24 @@ $('.icon-menu').on('click',function(){
 });
 
 // javascript for posting form elements to google spreadshit.
+
+function inputTypingStarts(){
+  if($(this).val()!== ""|| $(this).val().length !== 0){
+    $(this).addClass('input-typing');
+  }else{
+    $(this).removeClass('input-typing');
+  }
+}
+
+function inputTypingEnds(){
+  if($(this).val()=== ""|| $(this).val().length === 0){
+    // console.log('field must be filled');
+    $(this).addClass("input-incorrect");
+    $(this).removeClass("input-complete");
+  }else{
+    $(this).removeClass('input-typing input-incorrect');
+    $(this).addClass('input-complete');
+  }
+}
 
 
