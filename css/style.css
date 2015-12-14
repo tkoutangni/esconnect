@@ -714,6 +714,10 @@ blockquote{
 .add-top-margin{
 	margin-top: 10px;
 }
+
+.remove-margin{
+	margin-left:0;
+}
 /*
 .overlay{
 	width: 100%;

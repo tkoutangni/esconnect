@@ -131,15 +131,40 @@ $('.member-details').mouseover(function(e){
 
 $('.member-details').magnificPopup({
   items:{
-      src: 'test-ajax.html',
+      src: 'thibaut_k.html',
       type: 'ajax'
   }
 });
 
-$('.show-program').click(function(){
-  // $(this).html('Cacher le programme de l&acute;apr&egrave;s midi');
-  $('.hide-all-device').slideToggle();
+
+$('.member-details').magnificPopup({
+  items:{
+      src: 'morgane_b.html',
+      type: 'ajax'
+  }
 });
+
+$('.member-details').magnificPopup({
+  items:{
+      src: 'anthony_l.html',
+      type: 'ajax'
+  }
+});
+
+$('.member-details').magnificPopup({
+  items:{
+      src: 'alexendra_o.html',
+      type: 'ajax'
+  }
+});
+
+$('.member-details').magnificPopup({
+  items:{
+      src: 'fabien_r.html',
+      type: 'ajax'
+  }
+});
+
 
 
 

@@ -32,7 +32,7 @@ img {
 		min-height: 1px;
 		padding-left: 10px;
 		padding-right: 10px;
-		margin-left: 2%;
+		margin-left:2%;
 	}
 	.grid-container > [class^="grid-"]:first-child {
 		margin-left: 0;
@@ -93,7 +93,7 @@ img {
 }
 @media (min-width: 1000px) {
 	.grid-container {
-		max-width: 1000px;
+		max-width: 1024px;
 	}
 }
 
