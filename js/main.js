@@ -91,12 +91,12 @@ $('.registration-popup').magnificPopup({
 }); // end magnificPopup ajax request
 
 
-$('.submit-abstract-popup').magnificPopup({
-  items:{
-      src: 'abstract-submission-form.html',
-      type: 'ajax'
-  }
-});
+// $('.submit-abstract-popup').magnificPopup({
+//   items:{
+//       src: 'abstract-submission-form.html',
+//       type: 'ajax'
+//   }
+// });
 
 
 $('.icon-menu').on('click',function(){
