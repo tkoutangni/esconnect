@@ -736,6 +736,10 @@ blockquote{
     	-webkit-border-radius:50px;
     	border-radius:100%;
     }
+.social-profil-border{
+	border-top: 1px solid #fcfcfc;
+	padding:5px 0;
+}
 /*
 .overlay{
 	width: 100%;
