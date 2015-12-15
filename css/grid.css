@@ -93,7 +93,7 @@ img {
 }
 @media (min-width: 1000px) {
 	.grid-container {
-		max-width: 1024px;
+		max-width: 1000px;
 	}
 }
 

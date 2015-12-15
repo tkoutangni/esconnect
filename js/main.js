@@ -125,11 +125,11 @@ function inputTypingEnds(){
 }
 
 
-$('.member-details').mouseover(function(e){
-  console.log(e.type);
-});
+// $('.member-details').mouseover(function(e){
+//   console.log(e.type);
+// });
 
-$('.member-details').magnificPopup({
+$('.member1-details').magnificPopup({
   items:{
       src: 'thibaut_k.html',
       type: 'ajax'
@@ -137,28 +137,28 @@ $('.member-details').magnificPopup({
 });
 
 
-$('.member-details').magnificPopup({
+$('.member2-details').magnificPopup({
   items:{
       src: 'morgane_b.html',
       type: 'ajax'
   }
 });
 
-$('.member-details').magnificPopup({
+$('.member3-details').magnificPopup({
   items:{
       src: 'anthony_l.html',
       type: 'ajax'
   }
 });
 
-$('.member-details').magnificPopup({
+$('.member4-details').magnificPopup({
   items:{
       src: 'alexendra_o.html',
       type: 'ajax'
   }
 });
 
-$('.member-details').magnificPopup({
+$('.member5-details').magnificPopup({
   items:{
       src: 'fabien_r.html',
       type: 'ajax'

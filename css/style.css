@@ -408,32 +408,39 @@ a:focus {
 }
 
 .speaker-1 p:before{
-	background: url(../img/speakers/speaker-1.jpg)  top center no-repeat;
-	background-size: cover;
+	background: url(../img/speakers/profile_picture_placeholder_@x2.png)  50% 130% no-repeat;
+	background-size: auto 85%;
+	/*background-size: cover;*/
+
 }
 .speaker-2 p:before{
-	background: url(../img/speakers/speaker-2.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../img/speakers/profile_picture_placeholder_@x2.png)  50% 130% no-repeat;
+	background-size: auto 85%;
+	/*background-size: cover;*/
 }
 
 .speaker-3 p:before{
-	background: url(../img/speakers/speaker-3.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../img/speakers/profile_picture_placeholder_@x2.png)  50% 130% no-repeat;
+	background-size: auto 85%;
+	/*background-size: cover;*/
 }
 
 .speaker-4 p:before{
-	background: url(../img/speakers/speaker-4.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../img/speakers/profile_picture_placeholder_@x2.png)  50% 130% no-repeat;
+	background-size: auto 85%;
+	/*background-size: cover;*/
 }
 
 .speaker-5 p:before{
-	background: url(../img/speakers/speaker-5.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../img/speakers/profile_picture_placeholder_@x2.png)  50% 130% no-repeat;
+	background-size: auto 85%;
+	/*background-size: cover;*/
 }
 
 .speaker-6 p:before{
-	background: url(../img/speakers/speaker-6.jpg) no-repeat top center;
-	background-size: cover;
+	background: url(../img/speakers/profile_picture_placeholder_@x2.png)  50% 130% no-repeat;
+	background-size: auto 85%;
+	/*background-size: cover;*/
 }
 
 .swap-image{
@@ -718,6 +725,17 @@ blockquote{
 .remove-margin{
 	margin-left:0;
 }
+
+#custom-content img{
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+    .member-detail-picture img{
+    	width:30%;
+    	height:auto; 
+    	-webkit-border-radius:50px;
+    	border-radius:100%;
+    }
 /*
 .overlay{
 	width: 100%;
@@ -948,7 +966,7 @@ blockquote{
 		padding: 0;
 		margin: 0;
 	}
-	
+
 	.show-on-medium-and-large {
 		display: initial;
 	}
