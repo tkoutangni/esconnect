@@ -402,7 +402,7 @@ a:focus {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	border: 2px solid #f1f1f1;
+	border: 2px solid #AFAFAF;
 	margin: 30px auto 20px;
 	opacity:0.8;
 }
@@ -661,7 +661,7 @@ blockquote{
 }
 
 .experts-section{
-	background:#FCFCFC;
+	background:#F1F1F1;
 }
 
 .icon{
@@ -785,7 +785,7 @@ blockquote{
 /* Footer styles */
 .main-footer {
 	position: relative;
-	background:#FCFCFC;
+	background:#F1F1F1;
 	color:#576366;
 	padding-top: 10px;
 	padding-bottom: 10px;

@@ -75,10 +75,10 @@
 
 
 	<!--About section-->
-	<div class="section horizontal-block about-section">
-		<div class="grid-container">
+	<div class="section horizontal-block about-section" id="a-propos">
+		<div class="grid-container" >
 			<div class="grid-6">
-				<h3 id="a-propos">A Propos</h3>
+				<h3 >A Propos</h3>
 				<p class="left-align-text ">La e-sant&eacute; est d&eacute;finie par la commission europ&eacute;enne comme l&acute;application des technologies de l&acute;information et de la communication &agrave; l&acute;ensemble des activit&eacute;s en rapport avec la sant&eacute;. Elle na&icirc;t suite au d&eacute;veloppement de l&acute;informatique et s&acute;appuie aujourd&acute;hui sur un nombre grandissant de nouvelles technologies. En l&acute;espace de vingt ans, la e-sant&eacute; a connu une croissance exponentielle. La e-sant&eacute; permet d&eacute;sormais un acc&egrave;s &agrave; l&acute;information, &agrave; la communication et aux services de sant&eacute; facilit&eacute; et appara&icirc;t comme une r&eacute;ponse id&eacute;ale face aux actuels d&eacute;fis de sant&eacute;. <a href="#" class=""> En savoir +</a>
 				</p>
 				<!-- <div class="">
@@ -107,14 +107,14 @@
 		</div>
 	</div>
 
-	<div class="section experts-section">
+	<div class="section experts-section" id="experts-invites" >
 		<div class="grid-container">
-			<h3 id="experts-invites" class="center-content">Experts invit&eacute;s</h3>
+			<h3 class="center-content">Experts invit&eacute;s</h3>
 		</div>
 
 		<div class=" grid-container horizontal-block">
 				<div class="grid-4 speaker speaker-1">
-					<p class="">John Doe, affiliation.</p>
+					<p class="">Nom de l'expert(e), Affiliation.</p>
 					<a href="#"><i class="fa fa-linkedin-square fa-1x icon"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-1x icon"></i></a>
 					
@@ -122,13 +122,13 @@
 
 
 				<div class="grid-4 speaker speaker-2">
-					<p class="">John Doe, affiliation.</p>
+					<p class="">Nom de l'expert(e), Affiliation.</p>
 					<a href="#"><i class="fa fa-linkedin-square fa-1x icon"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-1x icon"></i></a>
 				</div>
 
 				<div class="grid-4 speaker speaker-3">
-					<p class="">John Doe, affiliation.</p>
+					<p class="">Nom de l'expert(e), Affiliation.</p>
 					<a href="#"><i class="fa fa-linkedin-square fa-1x icon"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-1x icon"></i></a>
 				</div>
@@ -137,20 +137,20 @@
 
 		<div class=" grid-container horizontal-block">
 				<div class="grid-4 speaker speaker-4">
-					<p class="">John Doe, affiliation.</p>
+					<p class="">Nom de l'expert(e), Affiliation.</p>
 					<a href="#"><i class="fa fa-linkedin-square fa-1x icon"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-1x icon"></i></a>
 				</div>
 
 
 				<div class="grid-4 speaker speaker-5">
-					<p class="">John Doe, affiliation.</p>
+					<p class="">Nom de l'expert(e), Affiliation.</p>
 					<a href="#"><i class="fa fa-linkedin-square fa-1x icon"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-1x icon"></i></a>
 				</div>
 
 				<div class="grid-4 speaker speaker-6">
-					<p class="">John Doe, affiliation.</p>
+					<p class="">Nom de l'expert(e), Affiliation.</p>
 					<a href="#"><i class="fa fa-linkedin-square fa-1x icon"></i></a>
 					<a href="#"><i class="fa fa-twitter fa-1x icon"></i></a>
 				</div>
@@ -159,9 +159,9 @@
 	
 
 	<!-- Program -->
-	<div class="section horizontal-block">
+	<div class="section horizontal-block" id="programme">
 		<div class="grid-container">
-			<h3 id="programme">Programme</h3>
+			<h3>Programme</h3>
 			<div class="grid-6">
 				<div class="grid-container">
 					<h6>Matin&eacute;e</h6>
@@ -226,7 +226,9 @@
 			</div>
 		</div>
 		<div class="grid-container">
-			<button class="small-button ">T&eacute;l&eacute;charger le programme</button>
+			<form name="" method="get" action="downloads/programme_SID_19_Mai_2016.pdf">
+				<button class="small-button" type="submit" formtarget="_blank">T&eacute;l&eacute;charger le programme</button>
+			</form>
 		</div>
 	</div>
 
@@ -234,7 +236,7 @@
 
 	<div class="section horizontal-block" id="date-place-section">
 		<div class=" grid-container">
-			<h3 id ="date-et-lieu">Date et lieu du s&eacute;minaire</h3>
+			<h3>Date et lieu du s&eacute;minaire</h3>
 		</div>
 		<div class="grid-container ">
 			<h6>Ce s&eacute;minaire &agrave; lieu le <span>19 MAI 2016</span></h6>
@@ -280,9 +282,9 @@
 		</div>
 	</div>
 
-	<div class="section horizontal-block team-section">
+	<div class="section horizontal-block team-section" id="equipe">
 		<div class="grid-container horizontal-block">
-			<h3 id="equipe">L&acute;&eacute;quipe organisatrice</h3>
+			<h3>L&acute;&eacute;quipe organisatrice</h3>
 		</div>
 
 		<div class="grid-container horizontal-block ">
@@ -340,7 +342,7 @@
 						<li><a href="#a-propos">A propos</a></li>
 						<li><a href="#experts-invites">Experts invit&eacute;</a></li>
 						<li><a href="#programme">Programme</a></li>
-						<li><a href="#date-et-lieu">Date &amp; lieu</a></li>
+						<li><a href="#date-place-section">Date &amp; lieu</a></li>
 						<li><a href="#equipe">&eacute;quipe</a></li>
 						<li><a href="#">Contacts</a></li>
 				</ul>
