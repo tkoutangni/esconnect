@@ -216,8 +216,8 @@ a:hover {
 	}
 
 	.large-button:hover{
-		color: #fff;
 		background: #2A8757;
+		color: #fff;
 	}
 
 	.universal-button{
@@ -231,6 +231,17 @@ a:hover {
 
 	.universal-button:hover{
 		background:#2A8757;
+		color: #fff;
+	}
+
+	.main-nav a,
+	.drop-down-menu a{
+		border: 1px solid #2A8757;
+	}
+
+	.main-nav a:hover, 
+	.drop-down-menu a:hover{
+		color: #fff;
 	}
 
 	button{
@@ -376,7 +387,7 @@ a:focus {
 	color: white;
 	text-decoration: none;
 	vertical-align: middle;
-	padding: 10px 10px 10px 0px;
+	padding: 10px 10px 10px 10px;
 }
 .main-logo a{
 	/*background: url(../img/logo.png) no-repeat center left;*/
@@ -615,7 +626,7 @@ blockquote{
 
 .partner-section img{
 	
-	opacity:0.4;
+	opacity:0.7;
 	margin-right: 10px ;
 	cursor:pointer;
 }
@@ -673,12 +684,20 @@ blockquote{
 	padding-bottom: 20px;
 }
 
-.experts-section{
+.experts-section,
+#date-place-section{
 	background:#F1F1F1;
 }
 
+.team-section{
+		background: #fff;
+		border-bottom: 1px solid #f1f1f1;
+}
+
+
 .icon{
 	margin-right: 10px;
+	font-size: 24px;
 }
 
 
@@ -982,6 +1001,12 @@ blockquote{
 		text-align: left;
 		padding: 0;
 		margin: 0;
+	}
+
+	.justify-align-text{
+		text-align: justify;
+		padding: 0;
+		margin:0;
 	}
 
 	.show-on-medium-and-large {
