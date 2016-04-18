@@ -92,7 +92,7 @@ ul li {
 }
 #list li figure > div > div {
   /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/953/teams.jpg) no-repeat;*/
-  background: url(../img/speakers/speakers_pictures-small-2.jpg) no-repeat;
+  background: url(../img/speakers/speakers_pictures-small.jpg) no-repeat;
   background-size: cover;
   background-position: 0px 0px;
   position: absolute;
