@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>e-sconnect - E-sant&eacute; : b&eacute;n&eacute;fices, enjeux et perspectives pour une sant&eacute; connect&eacute;e.</title>
+	<title>Esconnect - E-sant&eacute; : b&eacute;n&eacute;fices, enjeux et perspectives pour une sant&eacute; connect&eacute;e.</title>
 	<meta name="description" content="Un s&eacute;minaire interdisciplinaire du r&eacute;seau doctoral en sant&eacute; public sur la sant&eacute; connect&eacute;e">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -17,6 +17,9 @@
 	<link rel="stylesheet" type="text/css" href="css/svg-styles.css">
 	<!-- Main style CSS file -->
 	<link rel="stylesheet" href="css/slider-style.css" media="screen" type="text/css" />
+	<!-- Css for social sharing buttons -->
+	<link rel="stylesheet" href="css/rrssb.css" />
+	<!-- Custum Style -->
 	<link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -563,6 +566,26 @@
   	<script src='http://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.min.js'></script>
 
   <script src="js/slider-index.js"></script>
+  <!-- javascript for social sharing buttons -->
+	<script src="js/rrssb.min.js"></script>
+	<!-- My custum javascript -->
 	<script type="text/javascript" src="js/main.js"></script>
+
+	<script type="text/javascript">
+
+jQuery(document).ready(function ($) {
+
+  $('.rrssb-buttons').rrssb({
+    // required:
+    title: 'This is the email subject and/or tweet text',
+    url: 'http://esconnect.fr/',
+
+    // optional:
+    description: 'Longer description used with some providers',
+    emailBody: 'Usually email body is just the description + url, but you can customize it if you want'
+  });
+});
+</script>
+
 </body>
 </html>
