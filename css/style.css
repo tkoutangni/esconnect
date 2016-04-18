@@ -237,6 +237,7 @@ a:hover {
 	.main-nav a,
 	.drop-down-menu a{
 		border: 1px solid #2A8757;
+		border-radius: 2px;
 	}
 
 	.main-nav a:hover, 
@@ -303,7 +304,6 @@ input,
 label{
 	margin-top: 5px;
 	margin-bottom: 20px;
-
 }
 
 textarea {
@@ -357,14 +357,11 @@ select option{
 }
 
 
-
-
 select:focus,
 textarea:focus,
 a:focus {
     outline: none;
 }
-
 
 
 /* Main Layout Styles
@@ -537,6 +534,9 @@ span{
 	border-left: 0;
 }
 
+.session li, .moderateur{
+	font-size: 14px;
+}
 
 .sessionItem:before{
 	content: '';
@@ -859,6 +859,10 @@ blockquote{
 	padding-bottom: 10px;
 }
 
+.copyright h6{
+	text-transform: capitalize;
+}
+
 .copyright a{
 	color: #A4B3B7;
 }
@@ -954,13 +958,6 @@ blockquote{
 } /* This query ends */
 
 
-
-
-
-
-
-
-
 @media (min-width: 768px) { 
 
 	/* Main Layout Styles
@@ -968,7 +965,7 @@ blockquote{
 
 	body {
 		padding-top: 50px !important;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.main-header {
 		position: fixed;
@@ -1027,18 +1024,14 @@ blockquote{
 
 	/* Imagery
 	================================ */
-
-
-
 } /* end of this media query*/
 
 
-/*@media (min-width: 630px) { 
+@media (min-width: 630px) { 
 	.session{
 		max-width: 620px;
-	}*/
-
-}/* end of this media query*/
+	}
+} /* end of this media query*/
 
 
 .mfp-close-btn-in .mfp-close {
@@ -1080,3 +1073,5 @@ button.mfp-close, button.mfp-arrow {
     -moz-user-select: none;
     user-select: none;
 }
+
+/*Slider style begins here*/

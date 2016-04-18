@@ -165,6 +165,10 @@ $('.member5-details').magnificPopup({
   }
 });
 
+// Slider for invited experts section
+
+
+
 
 
 
