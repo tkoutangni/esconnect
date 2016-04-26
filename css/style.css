@@ -515,6 +515,11 @@ span{
 	color:#3CCF80; 
 }
 
+.info{
+	color: #fff;
+	background: #3CCF80;
+	padding:10px;
+}
 .session{
 	position: relative;
 
