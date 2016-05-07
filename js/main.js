@@ -1,4 +1,12 @@
 
+$(document).ready(function(){
+    $('.disabled-button').removeClass("registration-popup");
+    $("#login").removeClass("ajax-loading registration-popup");
+    $(".disabled-button").text("Inscriptions Closes");
+    $(".close-registration-message").text("Inscriptions Closes depuis le 6 Mai.");
+    $(".disabled-button").prop("disabled",true);
+})
+
 function postDataToSpreadSheet(){
       // Variable to hold request
       var request;
@@ -166,9 +174,6 @@ $('.member5-details').magnificPopup({
 });
 
 // Slider for invited experts section
-
-
-
 
 
 

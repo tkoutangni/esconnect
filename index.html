@@ -48,7 +48,7 @@
 
 			<div id="show-menu-mobile" class="grid-8 main-nav hide-mobile show-on-medium-and-large">
 				<ul>
-					<li><a  id="login" class="ajax-loading registration-popup" href="#">INSCRIPTION</a></li>
+					<li><a  id="login" class="ajax-loading registration-popup disabled-button" href="#">INSCRIPTION</a></li>
 					<!-- <li><button class="universal-button submit-abstract-popup">Appel &agrave; communication</button></li> -->
 				</ul>
 			</div>
@@ -127,8 +127,9 @@
 			</div>
 		</div>
 		<div class="horizontal-block">
-			<h6>Nombre de places limit&eacute;es</h6>
-			<button type="button" id="subscribe" class="center-content large-button registration-popup">Je m'inscris au seminaire</button>
+			<!-- <h6>Nombre de places limit&eacute;es</h6> -->
+			<h6 class="close-registration-message">Inscription Closes</h6>
+			<button type="button" id="subscribe" class="center-content large-button registration-popup disabled-button ">Je m'inscris au seminaire</button>
 		</div>
 	</div>
 
@@ -426,8 +427,9 @@
 		</div>
 
 		<div class="grid-container horizontal-block">
-			<h6>Nombre de places limit&eacute;es</h6>
-			<button class="large-button registration-popup">Je m'inscris au seminaire</button>
+			<!-- <h6>Nombre de places limit&eacute;es</h6> -->
+			<h6 class="close-registration-message">Inscriptions Closes</h6>
+			<button class="large-button registration-popup disabled-button">Je m'inscris au seminaire</button>
 		</div>
 	</div>
 <!-- 
@@ -600,7 +602,5 @@ jQuery(document).ready(function ($) {
     emailBody: 'Usually email body is just the description + url, but you can customize it if you want'
   });
 });
-</script>
-
 </body>
 </html>
