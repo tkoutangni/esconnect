@@ -1,0 +1,2 @@
+# esconnect 2018 conference info and registration website
+Website I have developed and hosted on github for the esconnect conference registration in Paris. The esconnect conference goal was to bring together healthcare practitioners, technology startups, to discuss the challenges and opportunities of digital health and connected devices, as well as data privacy issues and regulations in France and the EU.
